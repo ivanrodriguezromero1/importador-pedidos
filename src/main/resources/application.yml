@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: importador-pedidos
+  datasource:
+    url: jdbc:postgresql://172.24.170.176:5432/pedidos
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui
+
+app:
+  batch:
+    size: 500
+  security:
+    hmac-secret: 0123456789ABCDEF0123456789ABCDEF

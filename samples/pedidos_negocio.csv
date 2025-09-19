@@ -1,0 +1,5 @@
+numero_pedido,cliente_id,fecha_entrega,estado,zona_id,requiere_refrigeracion
+P_NOCLI,CLI-XXX,2025-08-10,PENDIENTE,ZONA1,true
+P_NOZON,CLI-123,2025-08-10,PENDIENTE,ZONA_NO,true
+P_FRIO,CLI-123,2025-08-10,PENDIENTE,ZONA5,true
+P_PASADO,CLI-123,2023-01-01,PENDIENTE,ZONA1,false
